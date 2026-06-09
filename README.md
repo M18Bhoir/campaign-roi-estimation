@@ -216,6 +216,6 @@ Feature engineering is grounded in published industry data:
 
 ---
 
-## 👤 Author
+## 👤 Manas Kiran Bhoir
 
 Built as a production-grade ML portfolio project demonstrating end-to-end MLOps practices: data generation, feature engineering with domain knowledge, model training with cross-validation, REST API design, and CI/CD.
