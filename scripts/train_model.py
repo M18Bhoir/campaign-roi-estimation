@@ -59,7 +59,12 @@ def train_and_evaluate(data_path: str):
     xgb.model_version = "v1.0-xgb"
     xgb.train(X_train_scaled, y_train)
     xgb_preds = xgb.predict(X_test_scaled)
-    results["xgboost"] = model_evaluation_report(y_test.values, xgb_preds)
+    metrics = model_evaluation_report(y_test.values, xgb_preds)
+    results["xgboost"] = metrics
+    xgb.r2 = metrics["r2"]
+    xgb.mae = metrics["mae"]
+    xgb.rmse = metrics["rmse"]
+    xgb.mape = metrics["mape"]
     logger.info(f"XGBoost Test Metrics: {results['xgboost']}")
 
     # Save best model

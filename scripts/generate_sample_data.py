@@ -76,7 +76,7 @@ if __name__ == "__main__":
     Path("data/raw").mkdir(parents=True, exist_ok=True)
     df = generate_dataset()
     df.to_csv("data/raw/campaign_data.csv", index=False)
-    print(f"Generated {len(df):,} samples → data/raw/campaign_data.csv")
+    print(f"Generated {len(df):,} samples -> data/raw/campaign_data.csv")
     print(f"\nROI Statistics:")
     print(df["roi_percent"].describe().round(2))
     print(f"\nChannel distribution:\n{df['channel'].value_counts()}")
