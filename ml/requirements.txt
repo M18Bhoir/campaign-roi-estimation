@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+joblib
+jupyter
+matplotlib
+seaborn
+xgboost
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+httpx2
+sqlalchemy 
+psycopg[binary] 
+python-dotenv

@@ -1,0 +1,18 @@
+{
+    "experiment": "Signed Log Target Transformation",
+    "transformation": "sign(ROI) * log1p(abs(ROI))",
+    "inverse_transformation": "sign(y) * expm1(abs(y))",
+    "metrics": {
+        "Model": "Random Forest - Signed Log Target",
+        "Mean CV R2": 0.12446119119305905,
+        "CV R2 Std": 0.001960994846903185,
+        "Train R2": -0.013286973948905434,
+        "Test R2": -0.02634375969326408,
+        "Test MAE": 2161.0711192397725,
+        "Test RMSE": 7570.619821157888,
+        "Train-Test Gap": 0.013056785744358645,
+        "Training Time Seconds": 32.991517543792725
+    },
+    "model_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\ml\\models\\campaign_roi_model_transformed.joblib",
+    "prediction_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\ml\\results\\phase_3e\\transformed_target_predictions.csv"
+}

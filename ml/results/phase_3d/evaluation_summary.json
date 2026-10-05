@@ -1,0 +1,238 @@
+{
+    "phase": "3D",
+    "model": "Random Forest",
+    "target": "ROI",
+    "metrics": {
+        "r2": 0.30267181951990485,
+        "mae": 2313.310983393094,
+        "rmse": 6240.273473198369
+    },
+    "prediction_statistics": {
+        "actual": {
+            "mean": 2368.833982333333,
+            "median": 579.96,
+            "std": 7472.953033696646,
+            "min": -99.84,
+            "max": 226207.25
+        },
+        "predicted": {
+            "mean": 2398.3668009208545,
+            "median": 1602.252587761665,
+            "std": 3104.108284417933,
+            "min": 1263.9979838167126,
+            "max": 38150.62105882466
+        },
+        "error": {
+            "mean": -29.532818587521245,
+            "median": -1135.4016752112793,
+            "std": 6240.307595054285,
+            "min": -34633.751103445604,
+            "max": 205474.9171922565
+        }
+    },
+    "roi_range_analysis": [
+        {
+            "ROI_Range": "< 0",
+            "Samples": 3838,
+            "Mean_Actual_ROI": -51.325354351224604,
+            "Mean_Predicted_ROI": 1643.0365078046837,
+            "MAE": 1694.3618621559083,
+            "RMSE": 1863.7963116672413,
+            "R2": -4268.365152428967
+        },
+        {
+            "ROI_Range": "0 - 100",
+            "Samples": 2974,
+            "Mean_Actual_ROI": 48.52403160726295,
+            "Mean_Predicted_ROI": 1677.6124804571193,
+            "MAE": 1629.0884488498561,
+            "RMSE": 1773.972273589394,
+            "R2": -3849.1500609390805
+        },
+        {
+            "ROI_Range": "100 - 500",
+            "Samples": 7235,
+            "Mean_Actual_ROI": 275.4903731859019,
+            "Mean_Predicted_ROI": 1753.6014220013517,
+            "MAE": 1478.11104881545,
+            "RMSE": 1822.3821530191192,
+            "R2": -250.5425290116405
+        },
+        {
+            "ROI_Range": "500 - 1000",
+            "Samples": 4485,
+            "Mean_Actual_ROI": 723.2342474916387,
+            "Mean_Predicted_ROI": 1852.6285974150353,
+            "MAE": 1129.3943499233965,
+            "RMSE": 1731.7681260908164,
+            "R2": -143.2574090661611
+        },
+        {
+            "ROI_Range": "1000 - 2000",
+            "Samples": 4460,
+            "Mean_Actual_ROI": 1430.6599529147982,
+            "Mean_Predicted_ROI": 2040.998113414965,
+            "MAE": 711.6279672912403,
+            "RMSE": 1951.1565307250335,
+            "R2": -46.157238844995966
+        },
+        {
+            "ROI_Range": "2000 - 5000",
+            "Samples": 4119,
+            "Mean_Actual_ROI": 3124.4770308327265,
+            "Mean_Predicted_ROI": 2621.1362498644407,
+            "MAE": 1778.2223020256968,
+            "RMSE": 3134.348282258599,
+            "R2": -13.333166855222947
+        },
+        {
+            "ROI_Range": "> 5000",
+            "Samples": 2889,
+            "Mean_Actual_ROI": 16140.655237106266,
+            "Mean_Predicted_ROI": 6839.789909028453,
+            "MAE": 11005.065467016262,
+            "RMSE": 19069.888200977624,
+            "R2": -0.014732440542748693
+        }
+    ],
+    "top_features": [
+        {
+            "Original_Feature": "Budget",
+            "Importance": 0.701502348487292,
+            "Importance_Percentage": 70.1502348487292
+        },
+        {
+            "Original_Feature": "DiscountPercent",
+            "Importance": 0.038023716991974925,
+            "Importance_Percentage": 3.8023716991974923
+        },
+        {
+            "Original_Feature": "CompetitorScore",
+            "Importance": 0.033359076803691726,
+            "Importance_Percentage": 3.3359076803691727
+        },
+        {
+            "Original_Feature": "CampaignDurationDays",
+            "Importance": 0.031101352066637594,
+            "Importance_Percentage": 3.1101352066637595
+        },
+        {
+            "Original_Feature": "ProductCategory",
+            "Importance": 0.021989177928858124,
+            "Importance_Percentage": 2.1989177928858124
+        },
+        {
+            "Original_Feature": "CustomerSegment",
+            "Importance": 0.018817299968222977,
+            "Importance_Percentage": 1.8817299968222976
+        },
+        {
+            "Original_Feature": "Platform",
+            "Importance": 0.01868633123087742,
+            "Importance_Percentage": 1.8686331230877418
+        },
+        {
+            "Original_Feature": "CampaignType",
+            "Importance": 0.018363499545597982,
+            "Importance_Percentage": 1.836349954559798
+        },
+        {
+            "Original_Feature": "Season",
+            "Importance": 0.0179605638821054,
+            "Importance_Percentage": 1.7960563882105403
+        },
+        {
+            "Original_Feature": "CampaignMonth",
+            "Importance": 0.017770679755889,
+            "Importance_Percentage": 1.7770679755889
+        },
+        {
+            "Original_Feature": "Region",
+            "Importance": 0.017546697720924716,
+            "Importance_Percentage": 1.7546697720924715
+        },
+        {
+            "Original_Feature": "CampaignDayOfWeek",
+            "Importance": 0.016853708953230802,
+            "Importance_Percentage": 1.6853708953230802
+        },
+        {
+            "Original_Feature": "Device",
+            "Importance": 0.015967691058790135,
+            "Importance_Percentage": 1.5967691058790134
+        },
+        {
+            "Original_Feature": "MarketingObjective",
+            "Importance": 0.01587824167776604,
+            "Importance_Percentage": 1.5878241677766038
+        },
+        {
+            "Original_Feature": "CampaignYear",
+            "Importance": 0.008466403323268595,
+            "Importance_Percentage": 0.8466403323268595
+        }
+    ],
+    "random_state": 42,
+    "evaluation_status": "Completed",
+    "training_metadata": {
+        "project": "Campaign ROI Estimation",
+        "target": "ROI",
+        "selected_model": "Random Forest",
+        "selection_metric": "Mean TimeSeriesSplit CV R\u00b2",
+        "mean_cv_r2": 0.2871569615614987,
+        "cv_r2_std": 0.010262558824127807,
+        "test_r2": 0.30267181951990485,
+        "test_mae": 2313.310983393094,
+        "test_rmse": 6240.273473198369,
+        "train_r2": 0.4099537467956671,
+        "train_mae": 2226.9239218569173,
+        "train_rmse": 6442.952052760911,
+        "overfitting_gap": 0.10728192727576225,
+        "training_time_seconds": 276.61996910000016,
+        "training_samples": 120000,
+        "feature_count": 16,
+        "numerical_features": [
+            "Budget",
+            "CompetitorScore",
+            "CampaignDurationDays",
+            "DiscountPercent"
+        ],
+        "categorical_features": [
+            "Platform",
+            "Region",
+            "Device",
+            "CustomerSegment",
+            "ProductCategory",
+            "CampaignType",
+            "Season",
+            "MarketingObjective"
+        ],
+        "date_features": [
+            "CampaignYear",
+            "CampaignMonth",
+            "CampaignQuarter",
+            "CampaignDayOfWeek"
+        ],
+        "all_features": [
+            "Budget",
+            "CompetitorScore",
+            "CampaignDurationDays",
+            "DiscountPercent",
+            "Platform",
+            "Region",
+            "Device",
+            "CustomerSegment",
+            "ProductCategory",
+            "CampaignType",
+            "Season",
+            "MarketingObjective",
+            "CampaignYear",
+            "CampaignMonth",
+            "CampaignQuarter",
+            "CampaignDayOfWeek"
+        ],
+        "random_state": 42,
+        "test_size": 0.2,
+        "cv_folds": 5
+    }
+}

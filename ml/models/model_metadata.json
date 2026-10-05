@@ -1,0 +1,32 @@
+{
+    "model_name": "Campaign ROI Random Forest",
+    "model_version": "1.0.0",
+    "algorithm": "RandomForestRegressor",
+    "target_column": "ROI",
+    "test_r2": 0.302672,
+    "cv_r2": 0.287157,
+    "cv_r2_std": 0.010263,
+    "train_r2": 0.409954,
+    "mae": 2313.310983,
+    "rmse": 6240.273473,
+    "train_test_r2_gap": 0.107282,
+    "training_samples": 120000,
+    "testing_samples": 30000,
+    "feature_count": 16,
+    "training_time_seconds": 29.4057,
+    "random_state": 42,
+    "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 12,
+        "min_samples_split": 10,
+        "min_samples_leaf": 5,
+        "max_features": "sqrt"
+    },
+    "target_transformation": null,
+    "validation_strategy": {
+        "train_test_split": "chronological_80_20",
+        "cross_validation": "TimeSeriesSplit",
+        "n_splits": 5
+    },
+    "production_status": "candidate"
+}

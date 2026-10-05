@@ -1,0 +1,27 @@
+{
+    "benchmark": {
+        "warmup_requests": 10,
+        "benchmark_requests": 100,
+        "successful_requests": 100,
+        "failed_requests": 0,
+        "success_rate_percent": 100.0
+    },
+    "api_request_latency_ms": {
+        "min_ms": 44.279,
+        "mean_ms": 48.076,
+        "median_ms": 46.879,
+        "p95_ms": 50.273,
+        "p99_ms": 80.364,
+        "max_ms": 81.301,
+        "std_dev_ms": 5.543
+    },
+    "model_prediction_latency_ms": {
+        "min_ms": 40.211,
+        "mean_ms": 43.83,
+        "median_ms": 42.808,
+        "p95_ms": 45.053,
+        "p99_ms": 75.813,
+        "max_ms": 77.336,
+        "std_dev_ms": 5.42
+    }
+}

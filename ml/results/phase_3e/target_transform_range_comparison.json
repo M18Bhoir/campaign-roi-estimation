@@ -1,0 +1,117 @@
+{
+    "baseline_model": {
+        "test_r2": 0.3027,
+        "test_mae": 2313.311,
+        "test_rmse": 6240.2735,
+        "cv_r2": 0.2872
+    },
+    "transformed_model": {
+        "test_r2": -0.0263,
+        "test_mae": 2161.0711,
+        "test_rmse": 7570.6198,
+        "cv_r2": 0.1245
+    },
+    "roi_range_results": [
+        {
+            "ROI_Range": "<0",
+            "Samples": 3838,
+            "Actual_Mean_ROI": -51.325354351224604,
+            "Baseline_Mean_Prediction": 1643.0365078046837,
+            "Transformed_Mean_Prediction": 156.4182599756474,
+            "Baseline_MAE": 1694.3618621559083,
+            "Transformed_MAE": 207.74361432687198,
+            "Baseline_RMSE": 1863.7963116672413,
+            "Transformed_RMSE": 274.9761848381694,
+            "Baseline_Bias": -1694.3618621559083,
+            "Transformed_Bias": -207.74361432687198
+        },
+        {
+            "ROI_Range": "0-100",
+            "Samples": 2974,
+            "Actual_Mean_ROI": 48.52403160726295,
+            "Baseline_Mean_Prediction": 1677.6124804571193,
+            "Transformed_Mean_Prediction": 182.24805070075774,
+            "Baseline_MAE": 1629.0884488498561,
+            "Transformed_MAE": 135.92871286310123,
+            "Baseline_RMSE": 1773.972273589394,
+            "Transformed_RMSE": 251.85422969307734,
+            "Baseline_Bias": -1629.0884488498561,
+            "Transformed_Bias": -133.72401909349477
+        },
+        {
+            "ROI_Range": "100-500",
+            "Samples": 7235,
+            "Actual_Mean_ROI": 275.4903731859019,
+            "Baseline_Mean_Prediction": 1753.6014220013517,
+            "Transformed_Mean_Prediction": 209.4915560998932,
+            "Baseline_MAE": 1478.11104881545,
+            "Transformed_MAE": 208.8478713975193,
+            "Baseline_RMSE": 1822.3821530191192,
+            "Transformed_RMSE": 275.1711532174829,
+            "Baseline_Bias": -1478.11104881545,
+            "Transformed_Bias": 65.99881708600866
+        },
+        {
+            "ROI_Range": "500-1000",
+            "Samples": 4485,
+            "Actual_Mean_ROI": 723.2342474916387,
+            "Baseline_Mean_Prediction": 1852.6285974150353,
+            "Transformed_Mean_Prediction": 256.5480813072976,
+            "Baseline_MAE": 1129.3943499233965,
+            "Transformed_MAE": 517.2536487096589,
+            "Baseline_RMSE": 1731.7681260908164,
+            "Transformed_RMSE": 564.5758036373005,
+            "Baseline_Bias": -1129.3943499233965,
+            "Transformed_Bias": 466.68616618434123
+        },
+        {
+            "ROI_Range": "1000-2000",
+            "Samples": 4460,
+            "Actual_Mean_ROI": 1430.6599529147982,
+            "Baseline_Mean_Prediction": 2040.998113414965,
+            "Transformed_Mean_Prediction": 315.81924836216075,
+            "Baseline_MAE": 711.6279672912403,
+            "Transformed_MAE": 1123.4232333681532,
+            "Baseline_RMSE": 1951.1565307250335,
+            "Transformed_RMSE": 1192.0640391636914,
+            "Baseline_Bias": -610.3381605001669,
+            "Transformed_Bias": 1114.8407045526374
+        },
+        {
+            "ROI_Range": "2000-5000",
+            "Samples": 4119,
+            "Actual_Mean_ROI": 3124.4770308327265,
+            "Baseline_Mean_Prediction": 2621.1362498644407,
+            "Transformed_Mean_Prediction": 458.17980715118256,
+            "Baseline_MAE": 1778.2223020256968,
+            "Transformed_MAE": 2666.2972236815435,
+            "Baseline_RMSE": 3134.348282258599,
+            "Transformed_RMSE": 2804.07269472481,
+            "Baseline_Bias": 503.34078096828574,
+            "Transformed_Bias": 2666.2972236815435
+        },
+        {
+            "ROI_Range": ">5000",
+            "Samples": 2889,
+            "Actual_Mean_ROI": 16140.655237106266,
+            "Baseline_Mean_Prediction": 6839.789909028453,
+            "Transformed_Mean_Prediction": 977.3742595494432,
+            "Baseline_MAE": 11005.065467016262,
+            "Transformed_MAE": 15163.280977556822,
+            "Baseline_RMSE": 19069.888200977624,
+            "Transformed_RMSE": 24102.064510784374,
+            "Baseline_Bias": 9300.865328077813,
+            "Transformed_Bias": 15163.280977556822
+        }
+    ],
+    "extreme_roi": {
+        "p99": 32507.082599999972,
+        "p995": 49732.361850000096,
+        "p999": 97001.9982100001,
+        "sample_count": 300,
+        "baseline_mae": 44401.09433336018,
+        "transformed_mae": 58714.76039975792,
+        "baseline_rmse": 53132.69119900393,
+        "transformed_rmse": 66262.49016426766
+    }
+}

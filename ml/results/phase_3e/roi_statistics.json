@@ -1,0 +1,15 @@
+{
+    "count": 150000,
+    "mean": 2405.5272944000003,
+    "median": 590.8,
+    "std": 8212.914500983921,
+    "min": -99.87,
+    "max": 381367.74,
+    "skewness": 13.872288437606443,
+    "negative_count": 19272,
+    "zero_count": 1,
+    "positive_count": 130727,
+    "negative_percentage": 12.848,
+    "zero_percentage": 0.0006666666666666666,
+    "positive_percentage": 87.15133333333334
+}

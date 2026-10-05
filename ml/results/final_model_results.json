@@ -1,0 +1,27 @@
+{
+    "model_name": "Campaign ROI Random Forest",
+    "model_version": "1.0.0",
+    "dataset": {
+        "rows": 150000,
+        "features": 16,
+        "target": "ROI"
+    },
+    "metrics": {
+        "train_r2": 0.4099537467956671,
+        "test_r2": 0.30267181951990485,
+        "cv_r2": 0.2871569615614987,
+        "cv_r2_std": 0.010262558824127807,
+        "mae": 2313.310983393094,
+        "rmse": 6240.273473198369,
+        "train_test_r2_gap": 0.10728192727576225
+    },
+    "training": {
+        "training_samples": 120000,
+        "testing_samples": 30000,
+        "training_time_seconds": 29.405657529830933
+    },
+    "model_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\ml\\models\\campaign_roi_model.joblib",
+    "metadata_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\ml\\models\\model_metadata.json",
+    "feature_metadata_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\ml\\models\\feature_metadata.json",
+    "status": "candidate"
+}

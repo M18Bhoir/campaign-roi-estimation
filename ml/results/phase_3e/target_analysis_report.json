@@ -1,0 +1,82 @@
+{
+    "phase": "3E.1",
+    "target_column": "ROI",
+    "dataset_file": "C:\\Users\\Manas K. Bhoir\\Desktop\\campaign-roi-estimation\\data\\raw\\Campaign_ROI_Estimation_Dataset_150000.xlsx",
+    "sheet_name": "Fact_CampaignPerformance",
+    "statistics": {
+        "count": 150000,
+        "mean": 2405.5272944000003,
+        "median": 590.8,
+        "std": 8212.914500983921,
+        "min": -99.87,
+        "max": 381367.74,
+        "skewness": 13.872288437606443,
+        "negative_count": 19272,
+        "zero_count": 1,
+        "positive_count": 130727,
+        "negative_percentage": 12.848,
+        "zero_percentage": 0.0006666666666666666,
+        "positive_percentage": 87.15133333333334
+    },
+    "percentiles": [
+        {
+            "Percentile": 0.0,
+            "ROI": -99.87
+        },
+        {
+            "Percentile": 1.0,
+            "ROI": -91.5301
+        },
+        {
+            "Percentile": 5.0,
+            "ROI": -63.29099999999998
+        },
+        {
+            "Percentile": 10.0,
+            "ROI": -24.330999999999985
+        },
+        {
+            "Percentile": 25.0,
+            "ROI": 127.725
+        },
+        {
+            "Percentile": 50.0,
+            "ROI": 590.8
+        },
+        {
+            "Percentile": 75.0,
+            "ROI": 1839.5525
+        },
+        {
+            "Percentile": 90.0,
+            "ROI": 4847.185000000004
+        },
+        {
+            "Percentile": 95.0,
+            "ROI": 9147.826999999992
+        },
+        {
+            "Percentile": 99.0,
+            "ROI": 32372.83530000019
+        },
+        {
+            "Percentile": 99.5,
+            "ROI": 50358.618050000216
+        },
+        {
+            "Percentile": 99.9,
+            "ROI": 107394.70609000692
+        },
+        {
+            "Percentile": 100.0,
+            "ROI": 381367.74
+        }
+    ],
+    "extreme_value_analysis": {
+        "p99": 32372.83530000019,
+        "p995": 50358.618050000216,
+        "p999": 107394.70609000692,
+        "extreme_count": 1500
+    },
+    "recommendation_status": "Target distribution analysis completed"
+}
