@@ -358,7 +358,7 @@ python -m venv .venv
 Install backend dependencies:
 
 ```powershell
-pip install -r backend/requirements.txt
+pip install -r ml/requirements.txt
 ```
 
 Configure the backend environment variables using:
