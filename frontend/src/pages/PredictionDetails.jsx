@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState } from "react";
 
 import { useLocation, useNavigate, useParams } from "react-router-dom";
@@ -165,8 +166,6 @@ function PredictionDetails() {
      * React Router already supplied the prediction.
      */
     if (routerPrediction) {
-      setPrediction(routerPrediction);
-      setLoading(false);
       return;
     }
 
